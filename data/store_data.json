@@ -1,0 +1,279 @@
+{
+  "products": [
+    {
+      "id": "P8582",
+      "name": "PREMIUM EXE 100% SAFE IN ALL SERVERS :excontop:",
+      "title": "PREMIUM EXE 100% SAFE IN ALL SERVERS :excontop:",
+      "category": "FREE FIRE",
+      "price": 500,
+      "originalPrice": 500,
+      "permPrice": 1500,
+      "options": "1 Month:500, Permanent:1500",
+      "parsedOptions": [
+        {
+          "name": "1 Month",
+          "price": 500
+        },
+        {
+          "name": "Permanent",
+          "price": 1500
+        }
+      ],
+      "imageUrl": "uploads/pic_1795100403_e64410.png",
+      "image": "uploads/pic_1795100403_e64410.png",
+      "images": [
+        "uploads/pic_1795100403_e64410.png"
+      ],
+      "videoUrl": "",
+      "videos": [],
+      "badge": "",
+      "featured": false,
+      "stock": 99999999999,
+      "description": "PREMIUM EXE 100% SAFE IN ALL SERVERS \n\n AIMBOT AUTO RESET - SAFE \n SNIPER SCOPE CMD - SAFE \n SNIPER SWITCH - SAFE \n CAMERA CONTROL - SAFE \n \n NO NEED TO APPLY ANYTHING ON LOGIN, NO ANTI CHEAT, EVERYTHING APPLIES IN-GAME WITHOUT ANY PROBLEM AND CAN BE USED SAFELY ON MAIN ACCOUNT \n\n✅ PRICE: \n\n🛒 1 MONTH - 500 TK / 5 USD \n🛒 PARMANENT - 1500 TK / 15 USD",
+      "rating": 5
+    },
+    {
+      "id": "P8060",
+      "name": "FULLY HIDDEN BASIC",
+      "title": "FULLY HIDDEN BASIC",
+      "category": "FREE FIRE",
+      "price": 1000,
+      "originalPrice": 3500,
+      "permPrice": 3500,
+      "options": "1 Month:1000, Permanent:3500",
+      "parsedOptions": [
+        {
+          "name": "1 Month",
+          "price": 1000
+        },
+        {
+          "name": "Permanent",
+          "price": 3500
+        }
+      ],
+      "imageUrl": "uploads/pic_1795100643_0d8a93.png",
+      "image": "uploads/pic_1795100643_0d8a93.png",
+      "images": [
+        "uploads/pic_1795100643_0d8a93.png"
+      ],
+      "videoUrl": "",
+      "videos": [],
+      "badge": "",
+      "featured": false,
+      "stock": 9999999999999,
+      "description": "FULLY HIDDEN PANEL \n\n FULLY UNDETECTABLE ALL BYPASS \n\nFOR V BADGE PLAYER\n\n✅ PRICE\n\n🛒 1 MONTH - 1k BDT / 10 USD \n🛒 PARMANENT - 3.5k BDT / 35 USD",
+      "rating": 5
+    },
+    {
+      "id": "P1233",
+      "name": "BIOS BASIC",
+      "title": "BIOS BASIC",
+      "category": "FREE FIRE",
+      "price": 2000,
+      "originalPrice": 0,
+      "permPrice": 6000,
+      "options": "1 Month:2000, Permanent:6000",
+      "parsedOptions": [
+        {
+          "name": "1 Month",
+          "price": 2000
+        },
+        {
+          "name": "Permanent",
+          "price": 6000
+        }
+      ],
+      "imageUrl": "uploads/pic_1795100867_9777b7.png",
+      "image": "uploads/pic_1795100867_9777b7.png",
+      "images": [
+        "uploads/pic_1795100867_9777b7.png",
+        "uploads/pic_1795100867_4a2403.png"
+      ],
+      "videoUrl": "",
+      "videos": [],
+      "badge": "100",
+      "featured": false,
+      "stock": 99999999,
+      "description": "FULLY HIDDEN PANEL \n\n FULLY UNDETECTABLE ALL BYPASS \n\nFOR V BADGE PLAYER \n\n✅ PRICE:\n\n🛒 1 MONTH - 2k BDT / 20 USD \n🛒 PARMANENT - 6k BDT / 60 USD",
+      "rating": 5
+    },
+    {
+      "id": "P1903",
+      "name": "BIOS ADVANCED V2",
+      "title": "BIOS ADVANCED V2",
+      "category": "FREE FIRE",
+      "price": 3000,
+      "originalPrice": 0,
+      "permPrice": 12000,
+      "options": "1 Month:3000, Permanent:12000",
+      "parsedOptions": [
+        {
+          "name": "1 Month",
+          "price": 3000
+        },
+        {
+          "name": "Permanent",
+          "price": 12000
+        }
+      ],
+      "imageUrl": "uploads/pic_1795101087_73dfa8.png",
+      "image": "uploads/pic_1795101087_73dfa8.png",
+      "images": [
+        "uploads/pic_1795101087_73dfa8.png",
+        "uploads/pic_1795101087_594f9b.png"
+      ],
+      "videoUrl": "",
+      "videos": [],
+      "badge": "",
+      "featured": false,
+      "stock": 999,
+      "description": "BIOS ADVANCED V2 - EXTREME PRIVACY & NEXT LEVEL PERFORMANCE FOR TOURNAMENTS AND RANK MATCHES.",
+      "rating": 5
+    },
+    {
+      "id": "P6561",
+      "name": "STREAMER",
+      "title": "STREAMER",
+      "category": "FREE FIRE",
+      "price": 700,
+      "originalPrice": 0,
+      "permPrice": 2000,
+      "options": "1 Month:700, Permanent:2000",
+      "parsedOptions": [
+        {
+          "name": "1 Month",
+          "price": 700
+        },
+        {
+          "name": "Permanent",
+          "price": 2000
+        }
+      ],
+      "imageUrl": "uploads/pic_1795101169_3e0cb0.png",
+      "image": "uploads/pic_1795101169_3e0cb0.png",
+      "images": [
+        "uploads/pic_1795101169_3e0cb0.png",
+        "uploads/pic_1795101169_5a6926.png",
+        "uploads/pic_1795101169_46bf13.png"
+      ],
+      "videoUrl": "",
+      "videos": [],
+      "badge": "",
+      "featured": false,
+      "stock": 999,
+      "description": "100% UNDETECTABLE STREAMER PANEL — FULLY SAFE FOR MAIN AND V-BADGE IDS, WITH HIDDEN INTERNAL ESP AND AIMBOT FOR HEAD, NECK, AND DRAG — WORKS ONCE ACTIVATED, NO NEED TO TURN ON REPEATEDLY \nSTREAMER PANEL FOR NEW U2BAR \n\nOPEN TICKET FOR BUY \n\nPRICE\n\n 1 MONTH = 700TK / 7USDT \nPARMANENT = 2K / 20USDT TICKET",
+      "rating": 5
+    }
+  ],
+  "orders": [],
+  "coupons": [
+    {
+      "id": "coup-1",
+      "code": "WELCOME10",
+      "discount": 10,
+      "type": "percent",
+      "minSpend": 500,
+      "active": true
+    },
+    {
+      "id": "coup-2",
+      "code": "SAVE100",
+      "discount": 100,
+      "type": "fixed",
+      "minSpend": 1000,
+      "active": true
+    },
+    {
+      "id": "coup-3",
+      "code": "LIKHON3D",
+      "discount": 15,
+      "type": "percent",
+      "minSpend": 800,
+      "active": true
+    },
+    {
+      "id": "coup-4",
+      "code": "RTX3D",
+      "discount": 15,
+      "type": "percent",
+      "minSpend": 800,
+      "active": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "author": "Tanvir Hasan",
+      "rating": 5,
+      "comment": "Outstanding service! Ordered the Free Fire VIP Panel from Likhon Products Shop and received instant verification within 2 minutes. The 3D UI is unbelievable!",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "rev-2",
+      "author": "Sabbir Hossain",
+      "rating": 5,
+      "comment": "Quick delivery and 100% genuine products. The bKash payment was smooth and support on WhatsApp/Telegram was instantaneous. 10/10!",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "rev-3",
+      "author": "Mahmudul Haq",
+      "rating": 5,
+      "comment": "FiveM Mod Engine works flawlessly on our private RP server. Best digital gaming store in Bangladesh hands down.",
+      "date": "2026-11-01"
+    }
+  ],
+  "users": [],
+  "settings": {
+    "adminEmail": "admin@likhonshop.com",
+    "adminPassword": "admin",
+    "storeName": "likhonshop",
+    "storeTagline": "THE BEST HIDDEN PANEL IN THE WORLD",
+    "storePhone": "01736969496",
+    "storeEmail": "support@likhonshop.com",
+    "storeAddress": "Dhaka, Bangladesh",
+    "currency": "৳",
+    "shippingDhaka": 0,
+    "shippingOutside": 0,
+    "freeShippingThreshold": 0,
+    "bkashNumber": "01736969496 (Personal)",
+    "nagadNumber": "01736969496 (Personal)",
+    "rocketNumber": "01736969496 (Personal)",
+    "paymentInstructions": "Send Money to our bKash/Nagad/Rocket number and enter your Transaction ID (TrxID) below.",
+    "websiteLogo": "assets/favicon-192.png",
+    "websiteFavicon": "assets/favicon-192.png",
+    "updatedAt": "2026-11-21T21:00:00+06:00",
+    "customCategories": [
+      "FREE FIRE",
+      "BLOOD STRIKE",
+      "GTA 5 FIVE M",
+      "FREE FIRE PROJECTS",
+      "GRABBER C++"
+    ],
+    "primaryColor": "#6366f1",
+    "secondaryColor": "#818cf8",
+    "accentColor": "#a5b4fc",
+    "bgPrimary": "#09090b",
+    "themePreset": "stealth",
+    "heroTitle": "likhonshop — HIDDEN CHEATS & GAME MODS",
+    "heroSubtitle": "Elite 3D Gaming Store & VIP Digital Tools Bangladesh",
+    "heroBadge": "🔥 2026 OFFICIAL NEXT-GEN CHEATS",
+    "hero3dStyle": "cyber",
+    "hero3dEnabled": "yes",
+    "product3dEnabled": "yes",
+    "antiInspectEnabled": "no",
+    "telegramLink": "https://t.me/rtxstore_official",
+    "discordLink": "https://discord.gg/bTRJ6H22QP",
+    "whatsappLink": "https://wa.me/8801736969496",
+    "youtubeLink": "https://www.youtube.com/@FFRTXPANEL",
+    "heroBtn1Text": "Explore Products 🛒",
+    "heroBtn1Link": "#shop",
+    "heroBtn2Text": "Track Order 📦",
+    "heroBtn2Link": "#track",
+    "heroBgVideo": "",
+    "heroBgImage": "",
+    "bannerVideo": "",
+    "bannerImage": "",
+    "googleClientId": ""
+  }
+}

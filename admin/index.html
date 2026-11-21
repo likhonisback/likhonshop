@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>likhonshop - Admin Dashboard & Store Settings</title>
+  <base href="/admin/">
+  <link rel="icon" type="image/png" href="../assets/favicon-192.png">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="/admin/admin.css">
+
+  <!-- 🛡️ ADMIN PANEL ANTI-INSPECT & DEVTOOLS PROTECTION -->
+  <script>
+    (function () {
+      function isAntiInspectDisabled() {
+        try {
+          var cached = localStorage.getItem('rtx_store_settings') || localStorage.getItem('likhon_store_settings');
+          if (cached) {
+            var s = JSON.parse(cached);
+            if (s && s.antiInspectEnabled === 'no') return true;
+          }
+        } catch (e) { }
+        return true; // Keep accessible in admin unless strictly enabled
+      }
+
+      // 1. Block Context Menu (Right Click)
+      window.addEventListener('contextmenu', function (e) {
+        if (isAntiInspectDisabled()) return;
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      }, true);
+
+      document.addEventListener('contextmenu', function (e) {
+        if (isAntiInspectDisabled()) return;
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      }, true);
+
+      // 2. Block Keyboard Shortcuts
+      function blockDevToolsKeys(e) {
+        if (isAntiInspectDisabled()) return;
+        var key = (e.key || '').toLowerCase();
+        var code = e.code || '';
+        var keyCode = e.keyCode || e.which || 0;
+        var isCtrl = e.ctrlKey || e.metaKey;
+        var isShift = e.shiftKey;
+        var isAlt = e.altKey;
+
+        var isF12 = key === 'f12' || code === 'F12' || keyCode === 123;
+        var isInspectCombo = isCtrl && isShift && (key === 'i' || key === 'j' || key === 'c' || key === 'k' || keyCode === 73 || keyCode === 74 || keyCode === 67 || keyCode === 75);
+        var isMacDevTools = e.metaKey && isAlt && (key === 'i' || key === 'j' || key === 'c' || key === 'u' || keyCode === 73 || keyCode === 74 || keyCode === 67 || keyCode === 85);
+        var isViewSource = isCtrl && !isShift && (key === 'u' || keyCode === 85);
+
+        if (isF12 || isInspectCombo || isMacDevTools || isViewSource) {
+          e.preventDefault();
+          e.stopPropagation();
+          if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+          return false;
+        }
+      }
+
+      window.addEventListener('keydown', blockDevToolsKeys, true);
+      document.addEventListener('keydown', blockDevToolsKeys, true);
+    })();
+  </script>
+</head>
+
+<body>
+
+  <!-- Dynamic Application Mount Point -->
+  <div id="adminApp" style="width:100%"></div>
+
+  <script src="admin.js"></script>
+  <script>
+    if (typeof initAdmin === 'function') {
+      initAdmin();
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>likhonshop — Buy Free Fire VIP Mods, FiveM Scripts & Gaming Tools Bangladesh</title>
+  <meta name="description" id="seoDescription"
+    content="likhonshop is Bangladesh's #1 trusted gaming store for Free Fire VIP mods, FiveM scripts, Blood Strike inject tools, and custom gaming panels with instant delivery via bKash & Nagad.">
+  <meta name="keywords"
+    content="likhonshop, likhon products shop, Free Fire VIP Mod, FiveM Mods Bangladesh, Blood Strike VIP, Gaming Tools BD, buy gaming panel bkash, Free Fire headshot tool, digital gaming shop bd, FiveM scripts bangladesh, gaming hacks bd, bypass tool bd">
+  <meta name="author" content="likhonshop">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" id="seoCanonical" href="./">
+  <meta name="theme-color" content="#6366f1">
+
+  <!-- Open Graph / Facebook / Discord / Telegram -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" id="ogTitle" content="likhonshop — Best Gaming Mods, VIP Panels & Digital Tools BD">
+  <meta property="og:description" id="ogDesc"
+    content="Instant automated delivery of verified Free Fire VIP inject tools, FiveM scripts, and custom mods via bKash & Nagad.">
+  <meta property="og:url" id="ogUrl" content="./">
+  <meta property="og:site_name" content="likhonshop">
+  <meta property="og:image" id="ogImage" content="assets/favicon-192.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twTitle" content="likhonshop — Elite 3D Gaming & VIP Mods Bangladesh">
+  <meta name="twitter:description" id="twDesc"
+    content="Instant delivery of verified VIP inject tools, FiveM mods, and custom gaming scripts via bKash & Nagad.">
+  <meta name="twitter:image" id="twImage" content="assets/favicon-192.png">
+
+  <!-- Local SEO (Bangladesh) -->
+  <meta name="geo.region" content="BD">
+  <meta name="geo.placename" content="Dhaka, Bangladesh">
+  <meta name="geo.position" content="23.8103;90.4125">
+  <meta name="ICBM" content="23.8103, 90.4125">
+
+  <!-- Structured Data: Organization & WebSite (Google Rich Snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "#organization",
+        "name": "likhonshop",
+        "url": "./",
+        "logo": "assets/favicon-192.png",
+        "description": "Premier digital gaming store in Bangladesh providing verified VIP game inject tools, FiveM mods, and gaming panels with instant bKash & Nagad delivery.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dhaka",
+          "addressCountry": "BD"
+        },
+        "sameAs": [
+          "https://t.me/rtxstore_official",
+          "https://discord.gg/rtxstore"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "#website",
+        "url": "./",
+        "name": "likhonshop",
+        "publisher": { "@id": "#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "#shop?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Favicon & Search Engine Branding (Google, Mobile & Desktop) -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="assets/favicon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- External 3D & Animation Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <script>
+    (function () {
+      try {
+        var c = localStorage.getItem('rtx_theme_colors') || localStorage.getItem('likhon_theme_colors');
+        if (c) {
+          var t = JSON.parse(c);
+          if (t && t.primaryColor) {
+            var r = document.documentElement.style;
+            r.setProperty('--color-primary', t.primaryColor);
+            if (t.secondaryColor) r.setProperty('--color-secondary', t.secondaryColor);
+            if (t.accentColor) r.setProperty('--color-accent', t.accentColor);
+            if (t.bgPrimary) r.setProperty('--bg-primary', t.bgPrimary);
+            if (t.isLight) {
+              document.addEventListener('DOMContentLoaded', function () {
+                if (document.body) document.body.classList.add('theme-light');
+              });
+            }
+          }
+        }
+      } catch (e) { }
+    })();
+
+    // 🛡️ DEVTOOLS DEFENSE (Configurable via Admin Settings)
+    (function () {
+      function isAntiInspectDisabled() {
+        try {
+          if (window.APP && window.APP.settings && window.APP.settings.antiInspectEnabled === 'no') return true;
+          var cached = localStorage.getItem('likhon_store_settings') || localStorage.getItem('rtx_store_settings');
+          if (cached) {
+            var s = JSON.parse(cached);
+            if (s && s.antiInspectEnabled === 'no') return true;
+            if (s && s.antiInspectEnabled === 'yes') return false;
+          }
+        } catch (e) { }
+        return true; // Safe default for local viewing/development
+      }
+
+      function blockContextMenu(e) {
+        if (isAntiInspectDisabled()) return;
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+        return false;
+      }
+      window.addEventListener('contextmenu', blockContextMenu, true);
+      document.addEventListener('contextmenu', blockContextMenu, true);
+
+      function blockDevToolsKeys(e) {
+        if (isAntiInspectDisabled()) return;
+
+        var key = (e.key || '').toLowerCase();
+        var code = e.code || '';
+        var keyCode = e.keyCode || e.which || 0;
+        var isCtrl = e.ctrlKey || e.metaKey;
+        var isShift = e.shiftKey;
+        var isAlt = e.altKey;
+
+        var isF12 = key === 'f12' || code === 'F12' || keyCode === 123;
+        var isInspectCombo = isCtrl && isShift && (key === 'i' || key === 'j' || key === 'c' || key === 'k' || keyCode === 73 || keyCode === 74 || keyCode === 67 || keyCode === 75);
+        var isMacDevTools = e.metaKey && isAlt && (key === 'i' || key === 'j' || key === 'c' || key === 'u' || keyCode === 73 || keyCode === 74 || keyCode === 67 || keyCode === 85);
+        var isViewSource = isCtrl && !isShift && (key === 'u' || keyCode === 85);
+        var isSavePage = isCtrl && !isShift && (key === 's' || keyCode === 83);
+        var isPrint = isCtrl && !isShift && (key === 'p' || keyCode === 80);
+        var isMenuKey = key === 'contextmenu' || keyCode === 93;
+
+        if (isF12 || isInspectCombo || isMacDevTools || isViewSource || isSavePage || isPrint || isMenuKey) {
+          e.preventDefault();
+          e.stopPropagation();
+          if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+          return false;
+        }
+      }
+
+      window.addEventListener('keydown', blockDevToolsKeys, true);
+      document.addEventListener('keydown', blockDevToolsKeys, true);
+
+      window.addEventListener('dragstart', function (e) {
+        if (isAntiInspectDisabled()) return;
+        if (e.target && e.target.nodeName === 'IMG') {
+          e.preventDefault();
+          return false;
+        }
+      }, false);
+
+      var devToolsOpen = false;
+      function updateSecurityShield(show) {
+        var shield = document.getElementById('rtxDevToolsShield');
+        var app = document.getElementById('app');
+        if (show) {
+          if (!shield && document.body) {
+            shield = document.createElement('div');
+            shield.id = 'rtxDevToolsShield';
+            shield.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(9,9,11,0.98);z-index:2147483647;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-family:system-ui,-apple-system,sans-serif;text-align:center;padding:24px;box-sizing:border-box;backdrop-filter:blur(25px);';
+            shield.innerHTML = '<div style="max-width:540px;background:rgba(18,18,24,0.95);border:1px solid rgba(239,68,68,0.4);border-radius:18px;padding:36px;box-shadow:0 25px 60px rgba(0,0,0,0.85);"><div style="font-size:3.5rem;margin-bottom:14px">🛡️</div><h2 style="color:#ef4444;font-size:1.6rem;font-weight:700;margin:0 0 12px 0;letter-spacing:1px">SECURITY PROTECTION ACTIVE</h2><p style="color:#cbd5e1;font-size:0.95rem;line-height:1.6;margin:0 0 20px 0">Developer Tools and inspection are restricted on <strong>likhonshop</strong>.<br>Please <strong>close Developer Tools</strong> to resume browsing.</p></div>';
+            document.body.appendChild(shield);
+          }
+          if (shield) shield.style.display = 'flex';
+          if (app) app.style.filter = 'blur(20px)';
+        } else {
+          if (shield) shield.style.display = 'none';
+          if (app) app.style.filter = '';
+        }
+      }
+
+      function checkDevTools() {
+        if (isAntiInspectDisabled()) {
+          if (devToolsOpen) {
+            devToolsOpen = false;
+            updateSecurityShield(false);
+          }
+          return;
+        }
+      }
+      setInterval(checkDevTools, 1000);
+    })();
+  </script>
+</head>
+
+<body>
+
+  <!-- Ambient 3D Noise Texture Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Animated Cyber Background Mesh -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a class="nav-brand" onclick="navigateTo('home')" id="nav-brand">
+        <img id="navBrandLogo" class="brand-logo-img" src="assets/favicon-192.png" alt="likhonshop Logo"
+          onerror="this.style.display='none'; document.getElementById('navBrandIcon').style.display='inline-flex';">
+        <span class="brand-icon-3d" id="navBrandIcon" style="display:none">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <polygon points="16,2 30,10 30,24 16,30 2,24 2,10" stroke="var(--color-primary)" stroke-width="2.2"
+              fill="rgba(108, 92, 231, 0.2)" />
+            <polygon points="16,8 24,13 24,21 16,25 8,21 8,13" fill="var(--color-secondary)" opacity="0.85" />
+          </svg>
+        </span>
+        <span class="brand-text" id="storeBrandName">likhonshop</span>
+        <span class="brand-badge-3d">3D</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a onclick="navigateTo('home')" data-page="home" class="active">Home</a></li>
+        <li><a onclick="navigateTo('shop')" data-page="shop">All Products</a></li>
+        <li><a onclick="navigateTo('categories')" data-page="categories">Categories</a></li>
+        <li><a onclick="navigateTo('track')" data-page="track">Track Order</a></li>
+        <li><a onclick="navigateTo('cart')" data-page="cart">Cart</a></li>
+        <li class="nav-mobile-user"><a onclick="handleNavUserClick()" data-page="account" id="mobileUserLink">👤 Account</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="nav-search-btn" onclick="toggleSearch()" aria-label="Search" id="searchBtn"
+          title="Search Products">
+          <i data-lucide="search"></i>
+        </button>
+        <button class="nav-cart-btn" onclick="navigateTo('cart')" aria-label="Cart" id="cartBtn" title="View Cart">
+          <i data-lucide="shopping-bag"></i>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+        <button class="nav-user-btn" id="navUserBtn" onclick="handleNavUserClick()" title="Customer Account & Orders">
+          <i data-lucide="user"></i>
+          <span class="nav-user-label" id="navUserLabel">Login</span>
+        </button>
+        <button class="nav-toggle" id="navToggle" onclick="toggleMobileNav()" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ SEARCH OVERLAY ═══════════════ -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-overlay-inner">
+      <div class="search-input-wrapper">
+        <i data-lucide="search" class="search-input-icon"></i>
+        <input type="text" id="searchOverlayInput" placeholder="Search VIP panels, FiveM mods, digital tools..."
+          oninput="handleSearchOverlay(this.value)" autofocus>
+      </div>
+      <p class="search-hint">Press <kbd>ESC</kbd> to exit</p>
+      <div class="search-results-dropdown" id="searchResultsDropdown" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ MAIN 3D SPA APP ═══════════════ -->
+  <main id="app">
+    <div style="padding: 120px 20px; text-align: center; max-width: 800px; margin: 0 auto;">
+      <h1 style="font-size: 2.2rem; margin-bottom: 1rem; color: #fff;">likhonshop — Best Gaming Mods & VIP Tools in Bangladesh</h1>
+      <p style="color: #94a3b8; font-size: 1.1rem; line-height: 1.6;">
+        Welcome to likhonshop, the premier digital gaming platform in Bangladesh for Free Fire VIP mods, FiveM scripts,
+        Blood Strike inject tools, and custom gaming panels with instant delivery via bKash &amp; Nagad.
+      </p>
+    </div>
+  </main>
+
+  <!-- ═══════════════ TOAST CONTAINER ═══════════════ -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ═══════════════ BACK TO TOP ═══════════════ -->
+  <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"
+    aria-label="Back to Top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 id="footerStoreName">⚡ likhonshop</h3>
+          <p id="footerStoreTagline">THE BEST HIDDEN PANEL IN THE WORLD</p>
+          <div class="footer-socials">
+            <a id="footerTelegramLink" href="https://t.me/rtxstore_official" target="_blank" rel="noopener"
+              aria-label="Telegram" class="social-link"><i data-lucide="send"></i></a>
+            <a id="footerDiscordLink" href="https://discord.gg/bTRJ6H22QP" target="_blank" rel="noopener"
+              aria-label="Discord" class="social-link"><i data-lucide="message-square"></i></a>
+            <a id="footerYoutubeLink" href="https://www.youtube.com/@FFRTXPANEL" target="_blank" rel="noopener"
+              aria-label="YouTube" class="social-link"><i data-lucide="video"></i></a>
+            <a id="footerWhatsappLink" href="https://wa.me/8801736969496" target="_blank" rel="noopener"
+              aria-label="WhatsApp" class="social-link"><i data-lucide="phone"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a onclick="navigateTo('home')">Home</a></li>
+            <li><a onclick="navigateTo('shop')">All Products</a></li>
+            <li><a onclick="navigateTo('categories')">Browse Categories</a></li>
+            <li><a onclick="navigateTo('track')">Track Order</a></li>
+            <li><a onclick="navigateTo('cart')">Shopping Cart</a></li>
+            <li><a onclick="handleNavUserClick()">My Account & Orders</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Payment Methods</h4>
+          <ul>
+            <li><span class="pay-method"><i data-lucide="smartphone"></i> bKash Personal / Merchant</span></li>
+            <li><span class="pay-method"><i data-lucide="smartphone"></i> Nagad Personal</span></li>
+            <li><span class="pay-method"><i data-lucide="smartphone"></i> Rocket Personal</span></li>
+            <li><span class="pay-method"><i data-lucide="banknote"></i> Cash on Delivery (COD)</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Customer Care</h4>
+          <ul id="footerContactInfo">
+            <li><span class="care-item"><i data-lucide="zap"></i> Instant Key Verification</span></li>
+            <li><span class="care-item"><i data-lucide="shield-check"></i> 100% Genuine Guarantee</span></li>
+            <li><span class="care-item"><i data-lucide="headphones"></i> 24/7 Dedicated Support</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 likhonshop. All rights reserved. Powered by Node.js &amp; Three.js 3D Engine.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/three-scene.js?v=2.2"></script>
+  <script src="js/3d-effects.js?v=2.2"></script>
+  <script src="js/app.js?v=2.2"></script>
+  <script src="js/cursor.js?v=2.2"></script>
+
+</body>
+
+</html>
